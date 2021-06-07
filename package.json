@@ -1,0 +1,43 @@
+{
+	"name": "@jopemachine/arvis-npms",
+	"version": "0.0.4",
+	"description": "Arvis workflow to search for npm packages with npms.io",
+	"license": "MIT",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"postinstall": "arvish-init",
+		"preuninstall": "arvish-cleanup"
+	},
+	"files": [
+		"index.js",
+		"source",
+		"icon.png",
+		"arvis-workflow.json"
+	],
+	"keywords": [
+		"npm",
+		"npms",
+		"npmjs",
+		"arvis",
+		"arvis-workflow",
+		"workflow",
+		"arvish"
+	],
+	"dependencies": {
+		"@jopemachine/arvish": "^0.1.13",
+		"date-format": "^2.0.0"
+	},
+	"devDependencies": {
+		"ava": "^1.0.1",
+		"semver-regex": "^2.0.0",
+		"xo": "^0.23.0"
+	}
+}

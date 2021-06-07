@@ -1,0 +1,33 @@
+{
+  "$schema": "https://github.com/jopemachine/arvis-core/blob/master/workflow-schema.json",
+  "category": "Productivity",
+  "createdby": "Sindre Sorhus",
+  "name": "npms",
+  "readme": "",
+  "enabled": true,
+  "defaultIcon": "icon.png",
+  "commands": [
+    {
+      "type": "scriptfilter",
+      "command": "npm",
+      "title": "Search for npm packages",
+      "subtitle": "",
+      "script_filter": "node index.js '{query}'",
+      "running_subtext": "Searching...",
+      "withspace": true,
+      "arg_type": "required",
+      "action": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "{query}"
+        },
+        {
+          "modifiers": "ctrl",
+          "type": "clipboard",
+          "text": "{query}"
+        }
+      ]
+    }
+  ]
+}
