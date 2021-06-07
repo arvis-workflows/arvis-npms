@@ -4,7 +4,7 @@
 
 npms.io is a great npm package search with deep analysis of package quality using a myriad of metrics. Much better than the official npmjs.com search.
 
-<img src="media/screenshot.png" width="694" height="440">
+<img src="media/screenshot.png" width="694">
 
 ## Install
 
@@ -26,5 +26,5 @@ Press <kbd>Shift</kbd> to view its readme in Quick Look.
 
 The search is made with `boost-exact:false` by default. You may pass any npms.io [operators](https://api-docs.npms.io/#api-search-query).
 
-<img src="media/screenshot2.png" width="694" height="440">
+<img src="media/screenshot2.png" width="694">
 
