@@ -6,6 +6,12 @@ npms.io is a great npm package search with deep analysis of package quality usin
 
 <img src="media/screenshot.png" width="694">
 
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/sindresorhus/alfred-npms).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
+
 ## Install
 
 ```
