@@ -1,5 +1,5 @@
 "use strict";
-const arvish = require("@jopemachine/arvish");
+const arvish = require("arvish");
 const cmdSubtitle = require("./source/cmd-subtitle");
 
 (async function() {

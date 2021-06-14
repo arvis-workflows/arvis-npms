@@ -1,6 +1,6 @@
 {
-	"name": "@jopemachine/arvis-npms",
-	"version": "0.2.0",
+	"name": "arvis-npms",
+	"version": "0.0.1",
 	"description": "Arvis workflow to search for npm packages with npms.io",
 	"license": "MIT",
 	"author": {
@@ -32,7 +32,7 @@
 		"arvish"
 	],
 	"dependencies": {
-		"@jopemachine/arvish": "^0.2.4",
+		"arvish": "^0.0.3",
 		"date-format": "^2.0.0"
 	},
 	"devDependencies": {
