@@ -1,6 +1,6 @@
 {
 	"name": "arvis-npms",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Arvis workflow to search for npm packages with npms.io",
 	"license": "MIT",
 	"author": {
