@@ -1,34 +1,37 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
-  "category": "Productivity",
-  "creator": "Sindre Sorhus",
-  "name": "npms",
-  "readme": "",
-  "enabled": true,
-  "version": "0.0.3",
-  "defaultIcon": "icon.png",
-  "commands": [
-    {
-      "type": "scriptFilter",
-      "command": "npm",
-      "title": "Search for npm packages",
-      "subtitle": "",
-      "scriptFilter": "node index.js '{query}'",
-      "runningSubtext": "Searching...",
-      "withspace": true,
-      "argType": "required",
-      "actions": [
+    "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+    "category": "Productivity",
+    "creator": "Sindre Sorhus",
+    "name": "arvis-npms",
+    "readme": "",
+    "enabled": true,
+    "version": "0.0.4",
+    "webAddress": "https://github.com/jopemachine/arvis-npms",
+    "description": "Arvis workflow to search for npm packages with npms.io",
+    "defaultIcon": "icon.png",
+    "commands": [
         {
-          "modifiers": "normal",
-          "type": "open",
-          "target": "{query}"
-        },
-        {
-          "modifiers": "ctrl",
-          "type": "clipboard",
-          "text": "{query}"
+            "type": "scriptFilter",
+            "command": "npm",
+            "title": "Search for npm packages",
+            "subtitle": "",
+            "scriptFilter": "node index.js '{query}'",
+            "runningSubtext": "Searching...",
+            "withspace": true,
+            "argType": "required",
+            "actions": [
+                {
+                    "modifiers": "normal",
+                    "type": "open",
+                    "target": "{query}"
+                },
+                {
+                    "modifiers": "ctrl",
+                    "type": "clipboard",
+                    "text": "{query}"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ],
+    "latest": "0.0.3"
 }

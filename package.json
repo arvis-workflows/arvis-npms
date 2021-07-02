@@ -1,6 +1,6 @@
 {
 	"name": "arvis-npms",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Arvis workflow to search for npm packages with npms.io",
 	"license": "MIT",
 	"author": {
@@ -32,10 +32,11 @@
 		"arvish"
 	],
 	"dependencies": {
-		"arvish": ">=0.3.1",
+		"arvish": ">=0.3.6",
 		"date-format": "^2.0.0"
 	},
 	"devDependencies": {
+		"arvish-test": "0.0.2",
 		"ava": "^1.0.1",
 		"semver-regex": "^2.0.0",
 		"xo": "^0.23.0"
